@@ -130,10 +130,10 @@
 #action {%1 sieht schon viel besser aus.} {#system cd /opt/avwow/sounds/ && play -q "golemcultists/golemhealfinish.ogg" &}
 #action {Du schluckst noch mehr Wasser.} {#system cd /opt/avwow/sounds/ && play -q "player/drown2.ogg" &}
 #action {Du beruhigst Dich wieder.} {#system cd /opt/avwow/sounds/ && play -q "player/drown3.ogg" &}
-#action {^%1 klettert nach %2} {#system cd /opt/avwow/sounds/ && play -q "footsteps/climb/%(((RANDOM % 11)+1)).ogg" &}
-#action {^Du kletterst nach %1} {#system cd /opt/avwow/sounds/ && play -q "footsteps/climb/%(((RANDOM % 11)+1)).ogg" &}
+#action {^%1 klettert nach %2} {#system cd /opt/avwow/sounds/ && play -q "footsteps/climb/$(((RANDOM % 11)+1)).ogg" &}
+#action {^Du kletterst nach %1} {#system cd /opt/avwow/sounds/ && play -q "footsteps/climb/$(((RANDOM % 11)+1)).ogg" &}
 #action {Deine Robe schmiegt sich eng an Deinen Koerper %1} {#system cd /opt/avwow/sounds/ && play -q "misc/zwonirobe.ogg" &}
-#action {Du hast einen neuen Brief von %1 bekommen.} {#system cd /opt/avwow/sounds/ && play -q "misc/post%(((RANDOM % 2)+1)).ogg" &}
+#action {Du hast einen neuen Brief von %1 bekommen.} {#system cd /opt/avwow/sounds/ && play -q "misc/post$(((RANDOM % 2)+1)).ogg" &}
 #action {NEUE Briefe liegen fuer Dich auf der Post.} {#system cd /opt/avwow/sounds/ && play -q "misc/post.ogg" &}
 #action {Du faengst an, \"Nynaeves Sonnenschein\" auf %1 zu spielen.} {#system cd /opt/avwow/sounds/ && play -q "bard/sun.ogg" &}
 #action {Da Du %1 im Schlaf beherrschst%2} {#system cd /opt/avwow/sounds/ && play -q "bard/instrumentmaster.ogg" &}
@@ -184,10 +184,10 @@
 #action {Das Feuer hinterlaesst tiefe, gluehende Spuren auf %1} {#system cd /opt/avwow/sounds/ && play -q "rune/flame.ogg" &}
 #action {Auf %1 lodert eine kleine Flamme kurz auf.} {#system cd /opt/avwow/sounds/ && play -q "rune/flame.ogg" &}
 #action {Du faengst an, %1 auf %2} {#system cd /opt/avwow/sounds/ && play -q "rune/filestart.ogg" &}
-#action {^Du treibst mit der Stroemung nach %1} {#system cd /opt/avwow/sounds/ && play -q "footsteps/swim/%(((RANDOM % 10)+1)).ogg" &}
-#action {^Du schwimmst nach %1} {#system cd /opt/avwow/sounds/ && play -q "footsteps/swim/%(((RANDOM % 10)+1)).ogg" &}
-#action {Ein kleines Huegelland.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/ground/%(((RANDOM % 10)+1)).ogg" &}
-#action {Auf den Tintagelschen Aeckern.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/ground/%(((RANDOM % 10)+1)).ogg" &}
+#action {^Du treibst mit der Stroemung nach %1} {#system cd /opt/avwow/sounds/ && play -q "footsteps/swim/$(((RANDOM % 10)+1)).ogg" &}
+#action {^Du schwimmst nach %1} {#system cd /opt/avwow/sounds/ && play -q "footsteps/swim/$(((RANDOM % 10)+1)).ogg" &}
+#action {Ein kleines Huegelland.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/ground/$(((RANDOM % 10)+1)).ogg" &}
+#action {Auf den Tintagelschen Aeckern.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/ground/$(((RANDOM % 10)+1)).ogg" &}
 #action {Du faengst an, %1 in %2} {#system cd /opt/avwow/sounds/ && play -q "rune/engravestart.ogg" &}
 #action {In einer Eiswueste %1} {#system cd /opt/avwow/sounds/ && play -q "footsteps/ice/1.ogg" &}
 #action {Auf einer Eisscholle, %1} {#system cd /opt/avwow/sounds/ && play -q "footsteps/ice/1.ogg" &}
@@ -248,7 +248,7 @@
 #action {Ein kleiner Funke springt auf die Holzspaene ueber, aber %1} {#system cd /opt/avwow/sounds/ && play -q "firestarting/failspark.ogg" &}
 #action {einige Meter nach hinten.} {#system cd /opt/avwow/sounds/ && play -q "spells/lavahit3.ogg" &}
 #action {Der Feuerkristall leuchtet nun hellrot und strahlt dabei eine unheimliche%1} {#system cd /opt/avwow/sounds/ && play -q "cook/firecrystal.ogg" &}
-#action {Ein kleiner See.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/swim/%(((RANDOM % 10)+1)).ogg" &}
+#action {Ein kleiner See.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/swim/$(((RANDOM % 10)+1)).ogg" &}
 #action {erhaertet.} {#system cd /opt/avwow/sounds/ && play -q "spells/lavahit4.ogg" &}
 #action {Der Nebel loest sich allmaehlich auf.} {#system cd /opt/avwow/sounds/ && play -q "cook/fogout.ogg" &}
 #action {Ein kleiner Wasserschwall schwappt von Deinem %1} {#system cd /opt/avwow/sounds/ && play -q "rune/wave.ogg" &}
@@ -263,9 +263,9 @@
 #action {Das Lagerfeuer ist nun voellig niedergebrannt und erlischt%1} {#system cd /opt/avwow/sounds/ && play -q "firestarting/goout.ogg" &}
 #action {Sogleich bildet sich ein dunkelblauer Nebel ueber dem Topf, %1} {#system cd /opt/avwow/sounds/ && play -q "cook/fog.ogg" &}
 #action {Einige Funken springen von Deinem %1} {#system cd /opt/avwow/sounds/ && play -q "rune/spark.ogg" &}
-#action {Das Ufer eines kleinen Sees.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/stony/%(((RANDOM % 10)+1)).ogg" &}
-#action {In den Weiten der Tundra.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/stony/%(((RANDOM % 10)+1)).ogg" &}
-#action {In einem steinigen Landesabschnitt.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/stony/%(((RANDOM % 10)+1)).ogg" &}
+#action {Das Ufer eines kleinen Sees.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/stony/$(((RANDOM % 10)+1)).ogg" &}
+#action {In den Weiten der Tundra.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/stony/$(((RANDOM % 10)+1)).ogg" &}
+#action {In einem steinigen Landesabschnitt.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/stony/$(((RANDOM % 10)+1)).ogg" &}
 #action {Du meinst ein leises Plaetschern zu vernehmen.} {#system cd /opt/avwow/sounds/ && play -q "cook/plash.ogg" &}
 #action {Super! Mit praezisen Schnitten weidest Du %1} {#system cd /opt/avwow/sounds/ && play -q "cook/disembowelsuccess.ogg" &}
 #action {Endlich bist Du mit dem Vorzeichnen fertig.} {#system cd /opt/avwow/sounds/ && play -q "rune/chartend.ogg" &}
@@ -371,9 +371,9 @@
 #action {%1 entzuendet %2} {#system cd /opt/avwow/sounds/ && play -q "misc/torch_on.ogg" &}
 #action {In dem Kochtopf befindet sich jetzt erstaunlicherweise kochendes Wasser %1} {#system cd /opt/avwow/sounds/ && play -q "cook/boiling1.ogg" &}
 #action {%1 schwer beschaedigt.} {#system cd /opt/avwow/sounds/ && play -q "smith/heavydamaged.ogg" &}
-#action {In einer grossen Hoehle.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/cave/%(((RANDOM % 4)+1)).ogg" &}
-#action {In einem Stollen.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/cave/%(((RANDOM % 4)+1)).ogg" &}
-#action {In einer trostlosen Steppe.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/steppy/%(((RANDOM % 10)+1)).ogg" &}
+#action {In einer grossen Hoehle.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/cave/$(((RANDOM % 4)+1)).ogg" &}
+#action {In einem Stollen.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/cave/$(((RANDOM % 4)+1)).ogg" &}
+#action {In einer trostlosen Steppe.} {#system cd /opt/avwow/sounds/ && play -q "footsteps/steppy/$(((RANDOM % 10)+1)).ogg" &}
 #action {Du steckst %1} {#system cd /opt/avwow/sounds/ && play -q "weapons/sword_sheath.ogg" &}
 #action {Du stellst die Holzstuecke zu einer kleinen Pyramide auf %1} {#system cd /opt/avwow/sounds/ && play -q "firestarting/build.ogg" &}
 #action {Kleine Luftblaeschen steigen aus dem Topf auf.} {#system cd /opt/avwow/sounds/ && play -q "cook/bubble.ogg" &}
@@ -432,8 +432,8 @@
 #action {Waldtraene zu sammeln %1} {#system cd /opt/avwow/sounds/ && play -q "player/waldtraene/startzp.ogg" &}
 #action {Du spuerst, wie Deine magische Energie schwindet. Sie scheint sich in} {#system cd /opt/avwow/sounds/ && play -q "player/waldtraene/startzp.ogg" &}
 #action {'Waldtraene' ist nun voll mit magischer Energie geladen.} {#system cd /opt/avwow/sounds/ && play -q "player/waldtraene/fullzp.ogg" &}
-#action {Sie scheinen ihm fuerchterliche Schmerzen zu bereiten.} {#system cd /opt/avwow/sounds/ && play -q "weapons/waldtraene/%(((RANDOM % 8)+1)).ogg" &}
-#action {Traenen gleich fliessen Tropfen goldenen Lichtes ueber die Blaetter von 'Waldtraene' auf %1 zu.} {#system cd /opt/avwow/sounds/ && play -q "weapons/waldtraene/%(((RANDOM % 8)+1)).ogg" &}
+#action {Sie scheinen ihm fuerchterliche Schmerzen zu bereiten.} {#system cd /opt/avwow/sounds/ && play -q "weapons/waldtraene/$(((RANDOM % 8)+1)).ogg" &}
+#action {Traenen gleich fliessen Tropfen goldenen Lichtes ueber die Blaetter von 'Waldtraene' auf %1 zu.} {#system cd /opt/avwow/sounds/ && play -q "weapons/waldtraene/$(((RANDOM % 8)+1)).ogg" &}
 #action {'Waldtraene' zittert in Deiner Hand. Du fuerchtest, sie koennte zerbersten!} {#system cd /opt/avwow/sounds/ && play -q "player/waldtraene/vibration.ogg" &}
 #action {Jemand klopft von draussen laut gegen die %1!} {#system cd /opt/avwow/sounds/ && play -q "misc/doorknock.ogg" &}
 #action {Mutigen Schrittes trittst Du durch die schwarze, glitzernde Wand.} {#system cd /opt/avwow/sounds/ && play -q "portal/shadowwall.ogg" &}
