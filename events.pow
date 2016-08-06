@@ -1,6 +1,0 @@
-#action Ein Pfad, er verlaeuft von $1 nach $2.=#print $1, $2
-#action Auf einem Pfad von $1 nach $2.=#print $1, $2
-#action Ein Weg, er verlaeuft von $1 nach $2.=#print $1, $2
-#action Unter dem Pfad der Unterwelt. Er fuehrt nach $1 und $2.=#print $1, $2
-#action Du wanderst auf einem Pfad auf der Insel Holbytla entlang. Er fuehrt nach $1, $2 und $3.=#print $1, $2, $3
-#action Du wanderst auf einem Pfad auf der Insel Holbytla entlang. Er fuehrt von $1 nach $2.=#print $1, $2
