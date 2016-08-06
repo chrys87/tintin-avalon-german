@@ -1,0 +1,1 @@
+#! killall -9 cmus; cmus & PID=$!; while [[ -d /proc/$(pidof powwow)]] ; do ; sleep 2 ; done ;kill $PID;
