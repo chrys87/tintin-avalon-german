@@ -1,0 +1,7 @@
+#var $RootPath=/opt/avwow/
+
+#exe <($RootPath+"config.txt")
+#exe <($RootPath+"alias.tin")
+#exe <($RootPath+"sound-events.tin")
+#exe <($RootPath+"events.tin")
+#exe <($RootPath+"speedwalk.tin")
